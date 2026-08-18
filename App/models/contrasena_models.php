@@ -17,13 +17,10 @@ return $stmt -> get_result()->fetch_assoc();
 
 
 public function guardarcodigo($email,$codigo){
-    try{
+  
         $stmt = $this->conn->prepare("UPDATE usuario SET codigo_recuperacion = ? where Email = ?");
         $stmt ->bind_param("ss",$codigo,$email);
-    } catch(PDOException $e){
-        
-    echo "". $e -> getMessage() ."";
-    }
+  
 
 return $stmt -> execute();
 

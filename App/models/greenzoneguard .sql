@@ -222,7 +222,7 @@ CREATE TABLE `usuario` (
   `Contraseña` varchar(300) DEFAULT NULL,
   `Email` varchar(200) DEFAULT NULL,
   `Fecha_registro` datetime DEFAULT current_timestamp(),
-  `token` varchar(32) DEFAULT NULL,
+  `codigo_recuperacion` varchar(255) DEFAULT NULL,
   `Puntos` int(20) DEFAULT 0,
   `Foto_perfil` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
