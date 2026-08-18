@@ -160,5 +160,12 @@ Desarrollado con pasión por el desarrollo de software y el impacto ambiental po
 - **Email:** luisrodolfocontreraspaez123@gmail.com
 
 ---
+<img width="1861" height="946" alt="image" src="https://github.com/user-attachments/assets/3d698c0f-13c9-4005-8bcc-3e96dc44e192" />
+<img width="1875" height="950" alt="Screenshot 2026-08-18 182204" src="https://github.com/user-attachments/assets/9be7180b-69a5-4ff2-8d5b-20705ac7bd99" />
+<img width="1860" height="948" alt="Screenshot 2026-08-18 182234" src="https://github.com/user-attachments/assets/49de6001-439c-4816-864b-eac376fd53ab" />
+<img width="1864" height="949" alt="Screenshot 2026-08-18 182244" src="https://github.com/user-attachments/assets/2a788834-54fd-4d3d-b7d5-d4a1c9317e88" />
+<img width="1862" height="950" alt="Screenshot 2026-08-18 182301" src="https://github.com/user-attachments/assets/678dc892-9171-4bbf-8acf-5de7e5319367" />
+<img width="1880" height="940" alt="Screenshot 2026-08-18 182318" src="https://github.com/user-attachments/assets/a96ce200-3257-49b2-8276-91ac6865eae4" />
+
 
 
