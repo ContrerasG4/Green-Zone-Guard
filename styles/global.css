@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 20px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+.header__navigation-list {
+  display: flex;
+}
+
+.header__navigation-li {
+  margin: 0 6px;
+}
+
+.header__navigation-item {
+  display: inline-block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  margin-top: 10px;
+}
+
+.header__navigation-item:hover {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.header__navigation-item2 {
+  display: inline-block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: orange;
+  font-family: arial;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.header__navigation-item2:hover {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.header__navigation-item--selected {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.header__parrafo {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: green;
+}
+
+.titulo__principal {
+  font-family: Impact;
+  color: green;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+  text-shadow: 
+                -6px -6px 0px white, 
+                6px -6px 0px white,  
+                -6px 6px 0px white,  
+                6px 6px 0px white;  
+}
+
+footer {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__ul {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.footer__icons {
+  padding: 10px;
+}
+
+.footer__icons i {
+  color: white;
+  font-size: 35px;
+}
+
+.parrafo {
+  font-family: arial;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+} 
+
+.hora {
+  font-family: arial;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/** Estilos de los formularios */
+
+.form {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(184, 183, 183);
+  font-family: arial;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form-header {
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 16px 20px;
+}
+
+.form-body {
+  padding: 12px 16px;
+}
+
+.input-text {
+  border: 1px solid green;
+  appearance: none;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.label {
+  font-weight: 400;
+  display: block;
+  margin-bottom: 4px;
+  padding-top: 20px;
+}
+
+.button {
+  font-size: 20px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 25px;
+  color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

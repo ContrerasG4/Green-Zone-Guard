@@ -1,0 +1,72 @@
+
+main {
+    background-image: url('../images/eventos_Mesa\ de\ trabajo\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__title {
+    font-family: impact;
+    color: green;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+.contenedor__eventos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;   
+}
+
+.contenedor__hijo {
+    width: 600px;
+    text-align: center;
+    text-align: justify;
+    object-fit: cover;
+}
+
+.contenedor__hijo--medio {
+    padding-top: 30px;
+}
+
+.main__contenedor--images {
+    width: 93%;
+    height: 380px;
+    border: 15px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.subtitulos {
+    color: green;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.parrafo__eventos {
+    font-family: arial;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.eventos {
+    font-family: arial;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-left: 30%;
+}

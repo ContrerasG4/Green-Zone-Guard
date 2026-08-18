@@ -1,0 +1,39 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+background-image: url("../public/images/Sommerlandschaft-Bilder-69.jpg");
+}
+.cuadro{
+position: relative;
+background: #47c61d;
+color: #000000;
+padding: 40px;
+border-radius: 15px;
+max-width: 300px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+margin: 40px;
+left: 40%;
+}
+
+.cuadro::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #3fbc15 transparent transparent transparent;
+
+}
+.parrafo{
+    font-size: 25px;
+}
+.nino{
+    position: relative;
+    left: 41%;
+    bottom: 20px;
+    
+
+}

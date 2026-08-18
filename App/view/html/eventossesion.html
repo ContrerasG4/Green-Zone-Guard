@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos</title>
+  <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="/styles/global.css">
+  <link rel="stylesheet" type="text/css" href="/styles/eventos-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="icon" href="../iconos/planta.ico">
+  <link rel="shortcut icon" href="../iconos/planta.ico" type="image/x-icon">
+
+  <style>
+    .btn-llamativo {
+      position: relative;
+      right: 25rem;
+      display: inline-block;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      color: white;
+      font-size: 1.2rem;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 25px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 5px 15px rgba(238, 9, 121, 0.4);
+      animation: bounce 1.5s infinite;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-llamativo:hover {
+      background: linear-gradient(90deg, #ee0979, #ff6a00);
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(238, 9, 121, 0.6);
+    }
+
+    @keyframes bounce {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="header">
+    <div>
+        <h1 class="header__title" id="titulo">"GREEN ZONE GUARD"</h1>
+        <p class="header__parrafo">Guardianes de zona verde</p>
+    </div>
+    <nav class="header__navigation">
+        <ul class="header__navigation-list">
+            <li class="header__navigation-li"><a class="header__navigation-item" href="/App/view/viewsesion/indexsesion.php">Inicio</a></li>
+            <li class="header__navigation-li"><a class="header__navigation-item" href="/App/view/html/nosotrossesion.html">Nosotros</a></li>
+            <li class="header__navigation-li"><a class="header__navigation-item header__navigation-item--selected" href="/App/view/html/eventossesion.html">Eventos</a></li>
+            <li class="header__navigation-li"><a class="header__navigation-item" href="/App/view/html/contactosesion.php">Contacto</a></li>
+            <li class="header__navigation-li"><a class="header__navigation-item" href="/App/view/html/recompensassesion.php">Recompensas</a></li>
+            <li class="header__navigation-li">
+                <a class="header__navigation-item2" href="/App/view/perfil.php">
+                    <i class="fa-solid fa-user"></i>
+                    <span style="margin-left: 4px;">Perfil</span>
+            <li class="header__navigation-li"><a class="header__navigation-item" href="../logout.php">Salir</a></li>
+            </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+  <main>
+    <h1 class="main__title">NUESTROS EVENTOS</h1>
+    <div class="contenedor__eventos">
+      <div class="contenedor__hijo">
+        <img src="/public/images/limpieza.jpg" alt="" class="main__contenedor--images">
+        <h2 class="subtitulos">LIMPIEZA</h2>
+        <p class="parrafo__eventos">Realizamos eventos de limpieza para asegurarnos
+          de que las personas esten en un ambiente limpio
+          y seguro.</p>
+      </div>
+      <div class="contenedor__hijo contenedor__hijo--medio">
+        <img src="/public/images/pintura.jpg" alt="" class="main__contenedor--images">
+        <h2 class="subtitulos">PINTURA</h2>
+        <p class="parrafo__eventos">Organizamos sesiones para pintar todas las
+          infraestructuras del parque asi se conservan
+          en excelente estado.</p>
+      </div>
+      <div class="contenedor__hijo">
+        <img src="/public/images/sembra.jpg" alt="" class="main__contenedor--images">
+        <h2 class="subtitulos">SIEMBRA DE ARBOLES</h2>
+        <p class="parrafo__eventos">La calidad del aire que respiramos es prioridad por
+          eso te invitamos a formar parte del grupo de
+          guardianes para mantener una zona mas verde.</p> <br>
+
+        <!--<a href="/php/Eventosver.php" class="eventos">Ver eventos disponibles aqui..</a>
+          <br> <br>
+          <a href="/php/unete.php" class="eventos">Unete</a>-->
+
+        <!-- Botón -->
+        <button class="btn-llamativo" id="BotonNew">Eventos disponibles</button>
+
+        <!-- Script JavaScript -->
+        <script>
+          // Seleccionar el botón
+          const boton = document.getElementById('BotonNew');
+
+          // Agregar un evento para redirigir
+          boton.addEventListener('click', function () {
+            // Cambiar la URL a la página deseada
+            window.location.href = '../viewsesion/Eventosver.php';
+          });
+        </script>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <ul class="footer__ul">
+      <li class="footer__icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <i class="fa-brands fa-square-facebook"></i></a>
+      </li>
+      <li class="footer__icons">
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li class="footer__icons">
+        <a href="https://www.tiktok.com" target="_blank">
+          <i class="fa-brands fa-tiktok"></i></a>
+      </li>
+    </ul>
+    <p class="parrafo">&copy; 2024 Mi Página Web. Todos los derechos reservados Green Zone Guard</p>
+    <div class="hora">
+      <p><span id="hora"></span></p>
+      <p><span id="fecha"></span></p>
+    </div>
+  </footer>
+
+  <script>
+    function actualizarHora() {
+      const ahora = new Date();
+      const horas = ahora.getHours().toString().padStart(2, '0');
+      const minutos = ahora.getMinutes().toString().padStart(2, '0');
+      const segundos = ahora.getSeconds().toString().padStart(2, '0');
+      const horaActual = `${horas}:${minutos}:${segundos}`;
+      document.getElementById('hora').textContent = horaActual;
+
+
+    }
+    setInterval(actualizarHora, 1000);
+
+    window.onload = actualizarHora;
+
+    const fechaActual = new Date();
+    const dia = fechaActual.getDate();
+    const mes = fechaActual.getMonth() + 1;
+    const año = fechaActual.getFullYear();
+
+
+    const fechaFormateada = `${dia}/${mes}/${año}`;
+    document.getElementById("fecha").textContent = fechaFormateada;
+  </script>
+
+</body>
+
+</html>

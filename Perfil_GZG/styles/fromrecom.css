@@ -1,0 +1,97 @@
+/* Estilos generales para el formulario */
+.A123 {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos y textos dentro del formulario */
+form h3 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 600;
+}
+
+/* Estilos para los inputs y textarea */
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilo para los botones */
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+form button:focus {
+    outline: none;
+}
+
+/* Botón de guardado */
+form button[name="guardar"] {
+    background-color: #28a745;
+}
+
+form button[name="guardar"]:hover {
+    background-color: #218838;
+}
+
+/* Botón de actualización */
+form button[name="actualizar"] {
+    background-color: #ffc107;
+}
+
+form button[name="actualizar"]:hover {
+    background-color: #e0a800;
+}
+
+/* Estilo para el textarea */
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Estilos de espaciado y alineación */
+form br {
+    display: none; /* Para evitar los saltos de línea innecesarios */
+}

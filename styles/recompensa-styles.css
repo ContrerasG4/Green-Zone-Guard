@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.recompensas {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.titulo-seccion h1 {
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+.titulo-seccion p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Carrusel */
+.carrusel-recompensas {
+    margin-top: 40px;
+    position: relative;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 300px; /* Mantengo la altura original */
+    overflow: hidden;
+}
+
+.carrusel-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.carrusel-items {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-items img {
+    width: 300px; /* Ancho fijo para mantener consistencia */
+    height: 100%; /* Ajusta la altura para que se vea bien */
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Asegura que la imagen ocupe el espacio sin deformarse */
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+button:hover {
+    color: #4CAF50;
+}
+
+button.anterior {
+    left: 0;
+}
+
+button.siguiente {
+    right: 0;
+}
+
+.detalles-recompensas {
+    margin-top: 40px;
+}
+
+.detalles-recompensas h2 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detalles-recompensas p {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+    text-justify: initial;
+}
+
+/* Niveles de recompensas */
+.niveles-recompensas {
+    background-color: #ffe4cd;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.niveles-recompensas h2 {
+    color: green;
+}
+
+.niveles-recompensas .nivel {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    color: gold;
+    font-size: 1.2em;
+}
+
+.nivel h3 {
+    color: green;
+    font-weight: bold;
+}
+
+/* Beneficios adicionales */
+.beneficios-adicionales {
+    padding: 40px 20px;
+    background-color: #dcffda;
+}
+
+.beneficios-adicionales h2 {
+    color: green;s
+}
+
+.beneficios-adicionales ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.beneficios-adicionales li {
+    font-size: 1.1em;
+    color: #333;
+    padding: 10px 0;
+}
+
+/* Testimonios */
+.testimonios {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.testimonios h2 {
+    color: green;
+    font-size: 18px;
+}
+
+.testimonio {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgb(255, 187, 62);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonio p {
+    font-size: 1em;
+    color: green;
+}
+
+.testimonio .autor {
+    font-weight: bold;
+    color: green;
+    margin-top: 10px;
+}
+
+

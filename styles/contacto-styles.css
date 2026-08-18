@@ -1,0 +1,103 @@
+
+main {
+    background-color: #FFFAE1;
+}
+
+.padre__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contac__image {
+    width: 33%;
+    height: 500px;
+    position: relative;
+}
+
+.contact__image2 {
+    width: 500px;
+    display: block;
+    position: absolute;
+    margin-top: -164px;
+}
+
+.form {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(184, 183, 183);
+    font-family: arial;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .form-header {
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 16px 20px;
+  }
+  
+  .form-body {
+    padding: 20px 30px;
+  }
+  
+  .input-text {
+    border: 1px solid green;
+    appearance: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 30px;
+    
+  }
+  
+  .label {
+    font-weight: 400;
+    display: block;
+    margin-bottom: 4px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: arial;
+    resize: vertical;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+  
+  .button {
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 25px;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .whatsapp-link {
+    position: absolute;
+    right: 8%;
+    bottom: 100px;
+    text-align: center;
+  }
+
+
+
