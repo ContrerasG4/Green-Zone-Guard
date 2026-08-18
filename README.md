@@ -1,4 +1,4 @@
-# 🌱 Green Zone Guard (GZG)
+# Green Zone Guard (GZG)
 
 <div align="center">
 
