@@ -18,7 +18,7 @@
 </div>
 
 ---
-
+##LA BD ESTA PUESTA A PROPOSITO, TODO ES ENTORNO DE PRUEBA.
 ## Descripción del Proyecto
 
 **Green Zone Guard (GZG)** es una solución web integral diseñada para fomentar la participación ciudadana en actividades de conservación ecológica (jornadas de limpieza, siembra de árboles, reciclaje y mantenimiento de áreas verdes).
