@@ -108,7 +108,7 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno de desarrollo local:
 ### 2. Clonar el Repositorio
 Ubica la carpeta `htdocs` (en XAMPP) o `www` y ejecuta:
 ```bash
-git clone https://github.com/TU_USUARIO/green-zone-guard.git
+git clone https://github.com/ContrerasG4/green-zone-guard.git
 cd green-zone-guard
 ```
 
